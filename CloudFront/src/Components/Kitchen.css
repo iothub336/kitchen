@@ -1,0 +1,39 @@
+.enlarge-on-hover {
+    transition: transform 0.6s ease-in-out;
+  }
+  
+  .enlarge-on-hover:hover {
+    transform: scale(1.2); /* Change the scale factor as needed */
+  }
+
+  .sliders img{
+    height: 180px;
+    width: 200px;
+  }
+
+
+  /* function isOrderEnabled(orderFrom, orderTill) {
+    const currentTime = new Date();
+    const fromTime = parseTimeString(orderFrom);
+    const tillTime = parseTimeString(orderTill);
+    return currentTime >= fromTime && currentTime <= tillTime;
+  }
+  
+  function parseTimeString(timeString) {
+    const [hours, minutes] = timeString.split(":");
+    const time = new Date();
+    time.setHours(parseInt(hours, 10));
+    time.setMinutes(parseInt(minutes, 10));
+    time.setSeconds(0);
+    return time;
+  } */
+
+  /* <div className="card-footer">
+  {isOrderEnabled(item.orderFrom, item.orderTill) ? (
+    <button className="btn btn-primary float-end">Order</button>
+  ) : (
+    <button className="btn btn-primary float-end" disabled>
+      Order
+    </button>
+  )}
+</div> */
